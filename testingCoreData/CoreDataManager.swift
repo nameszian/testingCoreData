@@ -47,8 +47,8 @@ struct CoreDataManager {
         var persons = [Person]()
         persons.append(person)
         
+        room.number = "Number 101"
         room.persons = persons
-        
         
         do {
             try managedObjectContext.save()

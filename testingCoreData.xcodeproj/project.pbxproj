@@ -14,8 +14,6 @@
 		20584DD222259EB4008F0C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20584DD122259EB4008F0C2F /* Assets.xcassets */; };
 		20584DD522259EB4008F0C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20584DD322259EB4008F0C2F /* LaunchScreen.storyboard */; };
 		20584DDD22259ED3008F0C2F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20584DDC22259ED3008F0C2F /* CoreDataManager.swift */; };
-		20584DE02225A06E008F0C2F /* Room+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20584DDE2225A06E008F0C2F /* Room+CoreDataClass.swift */; };
-		20584DE12225A06E008F0C2F /* Room+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20584DDF2225A06E008F0C2F /* Room+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +26,6 @@
 		20584DD422259EB4008F0C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20584DD622259EB4008F0C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20584DDC22259ED3008F0C2F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
-		20584DDE2225A06E008F0C2F /* Room+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Room+CoreDataClass.swift"; sourceTree = "<group>"; };
-		20584DDF2225A06E008F0C2F /* Room+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Room+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +66,6 @@
 				20584DD622259EB4008F0C2F /* Info.plist */,
 				20584DCE22259EB3008F0C2F /* testingCoreData.xcdatamodeld */,
 				20584DDC22259ED3008F0C2F /* CoreDataManager.swift */,
-				20584DDE2225A06E008F0C2F /* Room+CoreDataClass.swift */,
-				20584DDF2225A06E008F0C2F /* Room+CoreDataProperties.swift */,
 			);
 			path = testingCoreData;
 			sourceTree = "<group>";
@@ -148,10 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				20584DCA22259EB3008F0C2F /* ViewController.swift in Sources */,
-				20584DE02225A06E008F0C2F /* Room+CoreDataClass.swift in Sources */,
 				20584DD022259EB3008F0C2F /* testingCoreData.xcdatamodeld in Sources */,
 				20584DDD22259ED3008F0C2F /* CoreDataManager.swift in Sources */,
-				20584DE12225A06E008F0C2F /* Room+CoreDataProperties.swift in Sources */,
 				20584DC822259EB3008F0C2F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
